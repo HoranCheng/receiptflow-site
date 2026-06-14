@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support — ReceiptFlow</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #fff;
+      color: #1a1a1a;
+      line-height: 1.7;
+      font-size: 16px;
+    }
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 60px 24px 80px;
+    }
+    .app-name {
+      font-size: 13px;
+      font-weight: 600;
+      color: #555;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+    h1 {
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 40px;
+    }
+    h2 {
+      font-size: 17px;
+      font-weight: 600;
+      margin-top: 36px;
+      margin-bottom: 10px;
+    }
+    p {
+      margin-bottom: 12px;
+      color: #333;
+    }
+    ol, ul {
+      padding-left: 20px;
+      margin-bottom: 12px;
+      color: #333;
+    }
+    li { margin-bottom: 6px; }
+    code {
+      background: #f4f4f4;
+      border-radius: 4px;
+      padding: 1px 5px;
+      font-size: 14px;
+      font-family: ui-monospace, monospace;
+    }
+    a { color: #0066cc; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    hr {
+      border: none;
+      border-top: 1px solid #eee;
+      margin: 40px 0;
+    }
+    .contact-box {
+      background: #f8f8f8;
+      border-radius: 10px;
+      padding: 20px 24px;
+      margin-top: 12px;
+    }
+    .contact-box p { margin: 0; }
+    .footer {
+      font-size: 13px;
+      color: #999;
+      margin-top: 48px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="app-name">ReceiptFlow</div>
+    <h1>Support</h1>
+
+    <h2>Getting Started</h2>
+    <ol>
+      <li>Install the app from the App Store.</li>
+      <li>Sign in with your Google account.</li>
+      <li>Allow the requested Google Drive and Google Sheets permissions.</li>
+      <li>Tap the scan button to photograph a receipt, or import one from Photos.</li>
+      <li>Review any low-confidence receipts from the review queue.</li>
+    </ol>
+
+    <h2>Google Drive Permissions</h2>
+    <p>ReceiptFlow needs Google Drive and Google Sheets access to store receipt images and maintain a receipt index spreadsheet. If you deny the requested scopes, sync and restore features will not work.</p>
+    <p>The app only creates and accesses files it has created — it cannot read or modify any other files in your Google Drive.</p>
+
+    <h2>Restoring Receipts</h2>
+    <p>After reinstalling the app, sign in with the same Google account. The app locates your existing receipt folder and <code>receipt_index</code> spreadsheet in Google Drive and restores matching receipt records to local storage.</p>
+    <p>If automatic restore does not find your data, go to <strong>Account → Advanced → Recover My Data</strong> and paste the link or ID of your <code>receipt_index</code> spreadsheet.</p>
+
+    <h2>Deleting Data</h2>
+    <p>Go to <strong>Account → Sign Out</strong> to remove local authentication state. To permanently delete all receipt data, go to <strong>Account → Advanced → Delete All Data</strong>. This removes local receipts, the app's Google Drive folder, and its spreadsheet.</p>
+    <p>You can also manually delete the <code>ReceiptRenamer</code> folder and <code>receipt_index</code> spreadsheet directly from Google Drive.</p>
+
+    <h2>Contact</h2>
+    <div class="contact-box">
+      <p>For support questions or feedback, email <a href="mailto:a1119465212@gmail.com">a1119465212@gmail.com</a></p>
+    </div>
+
+    <hr>
+    <div class="footer">ReceiptFlow &middot; <a href="/ReceiptRenamer-iOS/">Home</a> &middot; <a href="/ReceiptRenamer-iOS/privacy-policy/">Privacy Policy</a></div>
+  </div>
+</body>
+</html>

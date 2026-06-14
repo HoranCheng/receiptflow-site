@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — ReceiptFlow</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #fff;
+      color: #1a1a1a;
+      line-height: 1.7;
+      font-size: 16px;
+    }
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 60px 24px 80px;
+    }
+    .app-name {
+      font-size: 13px;
+      font-weight: 600;
+      color: #555;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+    h1 {
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+    .effective-date {
+      font-size: 14px;
+      color: #888;
+      margin-bottom: 40px;
+    }
+    h2 {
+      font-size: 17px;
+      font-weight: 600;
+      margin-top: 36px;
+      margin-bottom: 10px;
+    }
+    p {
+      margin-bottom: 12px;
+      color: #333;
+    }
+    ul {
+      padding-left: 20px;
+      margin-bottom: 12px;
+      color: #333;
+    }
+    li {
+      margin-bottom: 6px;
+    }
+    code {
+      background: #f4f4f4;
+      border-radius: 4px;
+      padding: 1px 5px;
+      font-size: 14px;
+      font-family: ui-monospace, monospace;
+    }
+    a { color: #0066cc; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    hr {
+      border: none;
+      border-top: 1px solid #eee;
+      margin: 40px 0;
+    }
+    .footer {
+      font-size: 13px;
+      color: #999;
+      margin-top: 48px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="app-name">ReceiptFlow</div>
+    <h1>Privacy Policy</h1>
+    <div class="effective-date">Effective date: May 20, 2026</div>
+
+    <p>ReceiptFlow helps you capture receipts, extract structured receipt details, and store those receipts in your own Google Drive and Google Sheets.</p>
+
+    <h2>Data We Process</h2>
+    <p>ReceiptFlow may process:</p>
+    <ul>
+      <li>Google account identity used for sign-in, such as your email address and Google user identifier.</li>
+      <li>Receipt photos or imported receipt images that you choose to scan.</li>
+      <li>Receipt details extracted from those images, such as merchant, date, total amount, currency, GST estimate, category, confidence score, file ID, and review status.</li>
+      <li>App settings and sync configuration, such as Google Drive folder IDs, Google Sheets spreadsheet ID, default currency, onboarding state, and sync timestamps.</li>
+      <li>Authentication tokens needed to keep you signed in and perform Google Drive and Sheets actions you request.</li>
+    </ul>
+
+    <h2>How Data Is Used</h2>
+    <p>ReceiptFlow uses this data to:</p>
+    <ul>
+      <li>Sign you in with Google.</li>
+      <li>Upload receipt images to folders in your Google Drive.</li>
+      <li>Create or update a Google Sheets receipt index.</li>
+      <li>Analyze receipt images and extract structured receipt information.</li>
+      <li>Restore your receipt metadata after reinstalling the app.</li>
+      <li>Display receipts, totals, categories, and review items inside the app.</li>
+    </ul>
+    <p>ReceiptFlow does not sell your data and does not use your data for advertising or cross-app tracking.</p>
+
+    <h2>Where Data Is Stored</h2>
+    <p>ReceiptFlow stores data in these places:</p>
+    <ul>
+      <li>On your device, using SwiftData, UserDefaults, local cache files, and Keychain.</li>
+      <li>In your Google Drive, inside folders created or found by the app.</li>
+      <li>In your Google Sheets, in a spreadsheet named <code>receipt_index</code>.</li>
+      <li>In a Cloudflare Worker request path used to analyze receipt images. Receipt images are sent to the worker for app functionality and are not used for advertising or tracking.</li>
+    </ul>
+
+    <h2>Google Drive and Google Sheets Access</h2>
+    <p>ReceiptFlow requests Google permissions so it can:</p>
+    <ul>
+      <li>Create and manage receipt files and folders in your Drive.</li>
+      <li>Read existing receipt files and Sheets metadata during restore.</li>
+      <li>Read and update the receipt index spreadsheet.</li>
+    </ul>
+    <p>The app uses the <code>drive.file</code> scope, which limits access to only files and folders created by the app. It cannot read or modify any other files in your Drive.</p>
+    <p>You can revoke Google access from your Google Account settings at any time.</p>
+
+    <h2>Photos and Camera</h2>
+    <p>ReceiptFlow asks for camera access to photograph receipts and photo library access to import receipt images. When a receipt is captured with the camera, the app may save the cropped receipt image to your photo library as a local backup.</p>
+
+    <h2>Data Deletion</h2>
+    <p>You can sign out in the app to remove local authentication state. The app also includes a data deletion flow that clears local receipt data and can remove synced receipt data from Google Drive and Google Sheets.</p>
+    <p>You may also delete receipt files and spreadsheets directly from your Google Drive.</p>
+
+    <h2>Tracking</h2>
+    <p>ReceiptFlow does not use App Tracking Transparency tracking, advertising identifiers, third-party ad networks, or data brokers.</p>
+
+    <h2>Children</h2>
+    <p>ReceiptFlow is not directed to children and is intended for personal receipt organization.</p>
+
+    <h2>Contact</h2>
+    <p>For privacy or support questions, contact the developer through the <a href="/ReceiptRenamer-iOS/support/">support page</a> or through the app listing in the App Store.</p>
+
+    <hr>
+    <div class="footer">ReceiptFlow &middot; <a href="/ReceiptRenamer-iOS/">Home</a> &middot; <a href="/ReceiptRenamer-iOS/support/">Support</a></div>
+  </div>
+</body>
+</html>
